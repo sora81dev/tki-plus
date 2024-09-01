@@ -1,11 +1,13 @@
 from setuptools import setup, find_packages
-
 setup(
     name='tki-plus',
     version='1.0.4',
     packages=find_packages(),
     install_requires=[
-        "tkinter"
+        "tkinter",
+        "tqdm",
+        "numpy",
+        "time",
     ],
     author='sora81dev',
     author_email='sora81dev@gmail.com',
