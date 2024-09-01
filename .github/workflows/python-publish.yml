@@ -2,7 +2,7 @@ name: Publish Python Package
 
 on:
   push:
-    types: [created]
+    types: [published]
 
 jobs:
   build-and-publish:
