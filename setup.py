@@ -1,12 +1,11 @@
 from setuptools import setup, find_packages
 setup(
     name='tki-plus',
-    version='1.0.5',
+    version='1.0.6',
     packages=find_packages(),
     install_requires=[
         "tqdm",
-        "numpy",
-        "time",
+        "numpy"
     ],
     author='sora81dev',
     author_email='sora81dev@gmail.com',
