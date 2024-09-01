@@ -3,7 +3,7 @@ name: Publish Python Package
 on:
   push:
     branches:
-      - main  # またはデフォルトのブランチ名
+      - main
 
 jobs:
   build-and-publish:
