@@ -15,7 +15,7 @@ setup(
     url='https://github.com/sora81dev/tki-plus',
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: CC BY-NC-ND 4.0',
-        'Operating System :: Windows',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
     ],
 )
