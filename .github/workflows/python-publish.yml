@@ -3,11 +3,11 @@ name: Publish Python Package
 on:
   push:
     branches:
-      - main
+      - main  # またはデフォルトのブランチ名
 
 jobs:
   build-and-publish:
-    runs-on: windows
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
@@ -31,5 +31,5 @@ jobs:
         run: |
           python -m twine upload dist/*
         env:
-          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
-          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+          TWINE_USERNAME: sora81dev
+          TWINE_PASSWORD: Souta810
