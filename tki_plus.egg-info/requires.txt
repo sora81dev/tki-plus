@@ -1,4 +1,3 @@
-tkinter
 tqdm
 numpy
 time
